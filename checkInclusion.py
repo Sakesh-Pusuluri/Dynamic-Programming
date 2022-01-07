@@ -18,6 +18,6 @@ class Solution(object):
         return False
       
       
-# Time complexity - O(N)
-# Space complexity - O(1)
+# Time complexity - O(n+m)
+# Space complexity - O(k) # k = len(pattern)
         
