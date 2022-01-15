@@ -4,7 +4,7 @@ class MyQueue:
         self.l=[]
         self.count=0
 
-    def push(self, x: int) -> None:
+    def push(self, x: int):
         self.l.append(x)
         self.count+=1
 
