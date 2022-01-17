@@ -1,5 +1,5 @@
 class Solution:
-    def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
+    def carPooling(self, trips: List[List[int]], capacity: int):
         trips = sorted(trips, key=lambda x: x[1])
         heap = []
         rem_cap = 0
