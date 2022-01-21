@@ -1,5 +1,5 @@
 class Solution:
-    def findJudge(self, n: int, trust: List[List[int]]) -> int:
+    def findJudge(self, n, trust):
         graph=[0]*(n+1)
         for i,j in trust:
             graph[i]-=1
