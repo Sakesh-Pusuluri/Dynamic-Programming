@@ -1,6 +1,6 @@
 import queue
 class Solution:
-    def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
+    def averageOfLevels(self, root):
         result = []
         q=queue.Queue()
         q.put(root)
