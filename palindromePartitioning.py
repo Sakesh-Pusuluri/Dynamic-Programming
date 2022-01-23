@@ -1,5 +1,5 @@
 class Solution:
-    def partition(self, s: str) -> List[List[str]]:
+    def partition(self, s):
         result=[]
         def backtrack(string,curr_list=[]):
             if not string:
