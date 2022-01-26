@@ -1,5 +1,5 @@
 class Solution:
-    def getAllElements(self, root1: TreeNode, root2: TreeNode) -> List[int]:
+    def getAllElements(self, root1, root2):
         result1=[]
         result2=[]
         def helper(root,result):
