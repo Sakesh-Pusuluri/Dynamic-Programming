@@ -1,5 +1,5 @@
 class Solution:
-    def characterReplacement(self, string: str, k: int) -> int:
+    def characterReplacement(self, string, k):
         hashMap={}
         maxCount,j,ans=0,0,0
         for i in range(len(string)):
