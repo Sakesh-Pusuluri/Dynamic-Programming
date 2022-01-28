@@ -1,6 +1,6 @@
 import queue
 class Solution:
-    def findNearestRightNode(self, root: TreeNode, u: TreeNode) -> Optional[TreeNode]:
+    def findNearestRightNode(self, root, u):
         if root is None:
             return
         q = queue.Queue()
