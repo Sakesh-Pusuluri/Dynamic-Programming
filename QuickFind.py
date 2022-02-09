@@ -17,3 +17,4 @@ class QuickFind:
 # find complexity - O(1)
 # union complexity - O(N)
 # connected complexity - O(1)
+# Space complexity - O(N)
