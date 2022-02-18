@@ -1,5 +1,5 @@
 class Solution:
-    def backspaceCompare(self, s: str, t: str) -> bool:
+    def backspaceCompare(self, s, t):
         l1,l2=[],[]
         def listString(l,string):
             for i in string:
