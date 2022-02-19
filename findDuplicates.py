@@ -1,5 +1,5 @@
 class Solution:
-    def findDuplicates(self, nums: List[int]) -> List[int]:
+    def findDuplicates(self, nums):
         duplicateNumbers = []
         i=0
         while(i<len(nums)):
