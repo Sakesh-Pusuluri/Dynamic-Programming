@@ -1,5 +1,5 @@
 class Solution:
-    def distinctNumbers(self, nums: List[int], k: int) -> List[int]:
+    def distinctNumbers(self, nums, k):
         ans=[]
         numDict={}
         i,j=0,0
